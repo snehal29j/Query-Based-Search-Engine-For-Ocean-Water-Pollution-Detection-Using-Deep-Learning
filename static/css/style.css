@@ -1,0 +1,68 @@
+div {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  h1{
+    color: #66BFBF;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+  }
+  
+  h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    background-image: url('static/front.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* table {
+    border-collapse: collapse;
+    width: 100%;
+  } */
+  table {
+    table-layout: auto;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  td {
+    vertical-align: top;
+    padding: 10px;
+  }
+  
+  td.image {
+    width: 400px;
+  }
+  
+  td.text {
+    width: 400px;
+  }
+  
+  td.score {
+    width: 400px;
+  }
+  
+  
+          
